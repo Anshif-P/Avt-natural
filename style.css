@@ -1,0 +1,199 @@
+.nav-texts{
+    margin-left:28px;
+    border:none;
+    font-size: 18px;
+}
+.img-logo{
+    width: 10%;
+    
+}
+.nav-texts:hover{
+    border-bottom:1px solid black;
+
+}
+.text-first-img{ 
+    top:34%;
+    left:14%;
+    font-size:4rem;
+    color:white;
+}
+body{
+    overflow-x: hidden;
+    
+  
+    
+}
+.image-div-pho{
+    margin-left:4%;
+}
+.container-center-div{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+@media(max-width:768px){
+    .container-center-div{
+        flex-direction: column;
+        margin-top: 8px;
+       
+        height: 100vh;
+         text-align: center;
+    }
+}
+.container-1{
+  
+    background-image: url(image/hero-header-home.jpg); 
+     background-position:center ;
+    background-size:cover;
+   height: 40rem;
+   position: relative;
+}
+@media(max-width:960px){
+    .container-1{
+        height: 15rem;
+    }
+}
+.text{
+    position: absolute;
+    left:10%;
+    top: 30%;
+    color: white;
+    font-size:5vw;
+
+}
+.img-second{
+    width: 100%;
+    
+}
+.col{
+    padding:0%;
+}
+.button-learn-more:hover{
+   color:#693d3b;
+}
+.h1-second{
+    color:#1c5c48;
+   font-family: omnes-cond, Roboto, sans-serif; 
+}
+.cont-third{
+    background-color: #c4a58b;
+}
+.what-we-h1-p{
+    color:#693d3b;
+    margin-top: 5%;
+}
+.btn-learn-more{
+   background-color:#48e8b5;
+   border:none;
+   color:black;
+  margin-bottom: 4vh;
+   
+   padding: 2vh;
+}
+.btn-learn-more:hover{
+  background-color: #693d3b;
+}
+.img-icon{
+    color:#693d3b;
+}
+.h-communi{
+    font-family: omnes-cond, Roboto, sans-serif; 
+    color:#1c5c48;
+}
+.img-areas-of-div{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(image/spices-avt-home.jpg);
+    height: 40rem;
+    background-position:center;
+    background-size:cover;
+}
+
+
+.h-area{
+    color:#48e8b5;
+    position:absolute;
+    top:10%;
+    left:10%;
+    font-family: omnes-cond, Roboto, sans-serif; 
+
+}
+.h2-area{
+    color: #48e8b5;
+}
+.p-acro{
+    color:white;
+}
+.last-img-div-p{
+    background-image:url(image/footer-field.jpg);
+    height:30rem;
+    position:relative;
+    height:auto;
+    width: 100%;
+    
+
+}
+.cont-btwen{
+    background-color: #48e8b5;
+    height:1vh;
+}
+.last-logo-img{
+    position:absolute;
+    left: 14%;
+    top:15%;
+}
+.footer-p{
+    color:#48e8b5;
+    cursor: pointer;
+}
+
+.footer-p:hover{
+    color: #48e8b53b;
+}
+ 
+ .footer-p10{
+    color:#48e8b5;
+    display:none;
+    line-height:0.5;
+ }
+ @media (max-width:768px){
+    .footer-p{
+        display:none;
+        
+    }
+    .footer-p10{
+        display:block;
+    }
+    .last-img-div{
+        height: auto;
+    }
+ }
+
+ @media(max-width:768px){
+    .area-class-div{
+        padding:0px;
+        
+    }
+ }
+ .area-class-div{
+    padding:4%
+ }
+    
+
+.last-img-div{
+    background-image:url(image/footer-field.jpg);
+    height:30rem;
+    position:relative;
+}
+.footer-copyright{
+    margin-top:50px;
+}
+@media(max-width:768px){
+    .footer-copyright{
+        margin:0px;
+    }
+}
+.last-div-for-black{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
